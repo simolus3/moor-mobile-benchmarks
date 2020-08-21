@@ -1,0 +1,25 @@
+name: moor_benchmarks
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  moor: ^3.3.0
+  sqlite3_flutter_libs: ^0.2.0
+  moor_flutter: ^3.0.0
+  path_provider: ^1.6.11
+  path:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
